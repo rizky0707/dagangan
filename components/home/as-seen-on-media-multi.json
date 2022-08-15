@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_as_seen_on_media_multis",
+  "info": {
+    "name": "As Seen On Media Multi",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

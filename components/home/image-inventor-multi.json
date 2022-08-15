@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_image_inventor_multis",
+  "info": {
+    "name": "Image_inventor_multi",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

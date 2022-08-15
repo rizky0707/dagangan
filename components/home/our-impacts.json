@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_home_our_impacts",
+  "info": {
+    "name": "Our Impacts",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Image_Banner": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Our_impacts_multi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.our-impacts-multi"
+    }
+  }
+}

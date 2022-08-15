@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_our_partners",
+  "info": {
+    "name": "Our Partners",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Our_Partners_Multi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.our-partners-multi"
+    }
+  }
+}

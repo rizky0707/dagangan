@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_success_stories",
+  "info": {
+    "name": "Success Stories",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Success_stories_multi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.success-stories-multi"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_homes",
+  "info": {
+    "name": "Header",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Banner": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Headline": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_home_dagangan_ecosystems",
+  "info": {
+    "name": "Dagangan Ecosystem",
+    "icon": "object-ungroup",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image_banner": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Ecosystem_multi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.ecosystem-multi"
+    }
+  }
+}

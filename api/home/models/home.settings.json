@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.home"
+    },
+    "Our_Solution": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.our-solution"
+    },
+    "Dagangan_Ecosystem": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.dagangan-ecosystem"
+    },
+    "Area_Coverages": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.area-coverages"
+    },
+    "Our_Impacts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.our-impacts"
+    },
+    "Success_Stories": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.success-stories"
+    },
+    "Join_our_team": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.join-our-team"
+    },
+    "Our_investor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.our-investor"
+    },
+    "Our_partners": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.our-partners"
+    },
+    "As_seen_on_media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.as-seen-on-media"
+    }
+  }
+}

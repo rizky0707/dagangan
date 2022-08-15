@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_our_solutions",
+  "info": {
+    "name": "Our Solution",
+    "icon": "sort"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Our_solution_multi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.our-solution-multi"
+    }
+  }
+}

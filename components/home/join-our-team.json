@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_home_join_our_teams",
+  "info": {
+    "name": "Join Our Team",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "Headline_team": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "string"
+    },
+    "Image_team_banner": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

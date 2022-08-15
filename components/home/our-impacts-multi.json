@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_our_impacts_multis",
+  "info": {
+    "name": "Our Impacts Multi",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Count": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

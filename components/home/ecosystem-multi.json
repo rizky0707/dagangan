@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_ecosystem_multis",
+  "info": {
+    "name": "Ecosystem Multi",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "Hedline": {
+      "type": "string"
+    },
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_our_investors",
+  "info": {
+    "name": "Our Investor",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Image_inventor_multi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.image-inventor-multi"
+    }
+  }
+}
